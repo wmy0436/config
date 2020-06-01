@@ -7,9 +7,10 @@ spring:
   main:
     allow-bean-definition-overriding: true
   rabbitmq:
-    host: www.batgm.com
+    host: localhost
     port: 5672
-  
+    username: admin
+    password: admin
   redis:
     database: 0
     host: 127.0.0.1
